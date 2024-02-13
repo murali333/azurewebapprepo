@@ -15,6 +15,9 @@ public class Customer {
 
     private String email;
 
+    public Customer() {
+    }
+
     public Customer(long id, String name, String email) {
         this.id = id;
         this.name = name;
