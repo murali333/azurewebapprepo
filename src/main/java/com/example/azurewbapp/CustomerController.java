@@ -17,7 +17,7 @@ public class CustomerController {
     @PostMapping("/add")
     public ResponseEntity<String> addUser(@RequestBody Customer customer){
         repository.save(customer);
-        return new ResponseEntity<>("Success", HttpStatus.OK);
+        return new ResponseEntity<>("Successs", HttpStatus.OK);
 
     }
 
